@@ -8,11 +8,6 @@
           <include name="getconditionaldata"/>
         </methods>
       </class> <!-- APIAutoMation.GetConditionaldata -->
-      <class name="APIAutoMation.GetConditionaldata2">
-        <methods>
-          <include name="validatedata"/>
-        </methods>
-      </class> <!-- APIAutoMation.GetConditionaldata2 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
