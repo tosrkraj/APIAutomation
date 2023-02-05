@@ -1,6 +1,7 @@
 package APIAutoMation;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.JsonParser;
 
@@ -49,6 +50,9 @@ public class RecordCount {
         List<String> jsonResponse = response.jsonPath().getList("$");
 
         System.out.println("Total Number of Records : " + jsonResponse.size());
+        
+        
+        
     }
 }
 

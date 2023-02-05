@@ -52,5 +52,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <name>allure.results.directory</name>
+    <value>target/allure-results</value>
 </properties>
 </project>
