@@ -49,11 +49,10 @@
     <version>2.20.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
-
-
-
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <name>allure.results.directory</name>
+    <value>target/allure-results</value>
 </properties>
 </project>
