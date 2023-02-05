@@ -33,11 +33,11 @@ public class GetConditionaldataTest
 	
 		.when()
 		
-			.get("https://data.calgary.ca/resource/crbp-innf.json?total_consumption=0")
+			.get("https://data.calgary.ca/resource/crbp-innf.json?site_id=0020007253236&total_consumption=0")
 				
 		.then()
 			.statusCode(200)
-			.body("unit.toString()",c("kWh"))
+			.body("unit",contains("kWh"))
 			.body("total_consumption",contains("0"))
 			.log().all();
 				

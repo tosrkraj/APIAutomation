@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="APIAutoMation.GetConditionaldata">
+      <class name="APIAutoMation.GetConditionaldataTest">
         <methods>
           <include name="getconditionaldata"/>
         </methods>
-      </class> <!-- APIAutoMation.GetConditionaldata -->
+      </class> <!-- APIAutoMation.GetConditionaldataTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
