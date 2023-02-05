@@ -28,7 +28,7 @@ validations
 
 */
 
-public class GetAllData 
+public class GetAllDataTest 
 {
 
 	private static Response response;

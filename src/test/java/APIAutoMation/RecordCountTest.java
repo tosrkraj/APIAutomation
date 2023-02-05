@@ -35,7 +35,7 @@ validations
 
 */
 
-public class RecordCount {
+public class RecordCountTest {
 
     
 	@Test

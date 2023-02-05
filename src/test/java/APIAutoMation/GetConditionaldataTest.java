@@ -19,7 +19,7 @@ validations
 
 */
 
-public class GetConditionaldata 
+public class GetConditionaldataTest 
 {
 
 	@Test
@@ -37,7 +37,7 @@ public class GetConditionaldata
 				
 		.then()
 			.statusCode(200)
-			.body("unit.toString()",contains("kWh"))
+			.body("unit.toString()",c("kWh"))
 			.body("total_consumption",contains("0"))
 			.log().all();
 				
