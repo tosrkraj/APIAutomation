@@ -37,7 +37,7 @@ public class GetConditionaldata
 				
 		.then()
 			.statusCode(200)
-			.body("unit.toString()",equalTo("kWh"))
+			.body("unit.toString()",contains("kWh"))
 			.body("total_consumption",contains("0"))
 			.log().all();
 				
