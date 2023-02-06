@@ -1,4 +1,8 @@
 package APIAutoMation;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -66,14 +70,14 @@ public class GetConditionaldataTest
 			
 			
 			
-			Assert.assertEquals(statuscode,200);
-			Assert.assertEquals(unit,"[kWh]");
-			Assert.assertEquals(consumption,"[0]");
-			Assert.assertEquals(site_id,"[0020007253236]");
-			Assert.assertEquals(year,"[2016]");
-			Assert.assertEquals(month,"[Mar]");
-			Assert.assertEquals(Energy_consumption,"[Electricity]");
-			Assert.assertEquals(business_unit_desc,"[Calgary Housing]");
+			AssertJUnit.assertEquals(statuscode,200);
+			AssertJUnit.assertEquals(unit,"[kWh]");
+			AssertJUnit.assertEquals(consumption,"[0]");
+			AssertJUnit.assertEquals(site_id,"[0020007253236]");
+			AssertJUnit.assertEquals(year,"[2016]");
+			AssertJUnit.assertEquals(month,"[Mar]");
+			AssertJUnit.assertEquals(Energy_consumption,"[Electricity]");
+			AssertJUnit.assertEquals(business_unit_desc,"[Calgary Housing]");
 	}
 	
 	
