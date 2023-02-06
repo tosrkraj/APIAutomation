@@ -3,9 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="APIAutoMation.RecordCount"/>
-      <class name="APIAutoMation.GetAllData"/>
-      <class name="APIAutoMation.GetConditionaldata"/>
+      <class name="APIAutoMation.FailingTests"/>
+      <class name="APIAutoMation.RecordCountTest"/>
+      <class name="APIAutoMation.GetAllDataTest"/>
+      <class name="APIAutoMation.GetConditionaldataTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
