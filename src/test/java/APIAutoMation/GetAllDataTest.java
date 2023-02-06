@@ -31,7 +31,6 @@ validations
 public class GetAllDataTest 
 {
 
-	private static Response response;
 	
 	
 	
@@ -50,8 +49,8 @@ public class GetAllDataTest
 								
 			
 			.then()
-			.statusCode(200)
-			.log().all();
+			.statusCode(200);
+		//	.log().all();
 	
 	}
 

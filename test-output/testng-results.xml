@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-04T20:51:55 MST" name="Default suite" finished-at="2023-02-04T20:51:56 MST" duration-ms="1365">
+  <suite started-at="2023-02-06T14:04:28 MST" name="Default suite" finished-at="2023-02-06T14:04:30 MST" duration-ms="1606">
     <groups>
     </groups>
-    <test started-at="2023-02-04T20:51:55 MST" name="Default test" finished-at="2023-02-04T20:51:56 MST" duration-ms="1365">
-      <class name="APIAutoMation.GetConditionaldataTest">
-        <test-method signature="getconditionaldata()[pri:0, instance:APIAutoMation.GetConditionaldataTest@600b9d27]" started-at="2023-02-04T20:51:55 MST" name="getconditionaldata" finished-at="2023-02-04T20:51:56 MST" duration-ms="1325" status="PASS">
+    <test started-at="2023-02-06T14:04:28 MST" name="Default test" finished-at="2023-02-06T14:04:30 MST" duration-ms="1606">
+      <class name="APIAutoMation.GetConditionaldataTest2">
+        <test-method signature="getconditionaldata()[pri:0, instance:APIAutoMation.GetConditionaldataTest2@69f1a286]" started-at="2023-02-06T14:04:28 MST" name="getconditionaldata" finished-at="2023-02-06T14:04:30 MST" duration-ms="1562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getconditionaldata -->
-      </class> <!-- APIAutoMation.GetConditionaldataTest -->
+      </class> <!-- APIAutoMation.GetConditionaldataTest2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
