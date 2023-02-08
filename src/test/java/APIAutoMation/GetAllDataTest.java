@@ -5,9 +5,16 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import com.fasterxml.jackson.core.JsonParser;
 
+import io.restassured.http.Header;
+import io.restassured.http.Headers;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -38,7 +45,7 @@ public class GetAllDataTest
 	
 	@Test
 	
-	void getalldata()
+public	void getalldata()
 	{
 		
 		
@@ -52,9 +59,28 @@ public class GetAllDataTest
 			
 			.then()
 			.statusCode(200);
-		//	.log().all();
+		
 	
 	}
 
-	
+@Test
+	public void headerstest()
+	{
+		Response response = given()
+		
+		.when()
+		.get("https://data.calgary.ca/resource/crbp-innf.json");
+		
+		Headers AllHead = response.headers();
+		
+		
+		System.out.println("Response time "+ response.getTime());
+		
+		for(Header header:AllHead)
+		{
+			System.out.println("Header Name "+header.getName() + "  " +header.getValue());
+			
+		}
+		
+	}
 }

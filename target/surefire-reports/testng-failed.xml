@@ -9,6 +9,11 @@
           <include name="getalldata"/>
         </methods>
       </class> <!-- APIAutoMation.FailingTests -->
+      <class name="APIAutoMation.DatadrivenTest">
+        <methods>
+          <include name="DatadrivenExcelTest"/>
+        </methods>
+      </class> <!-- APIAutoMation.DatadrivenTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

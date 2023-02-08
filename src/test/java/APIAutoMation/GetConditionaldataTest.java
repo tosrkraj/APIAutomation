@@ -1,4 +1,14 @@
 package APIAutoMation;
+
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
@@ -37,7 +47,7 @@ public class GetConditionaldataTest
 
 	@Test
 	
-	void getconditionaldata()
+	public void getconditionaldata()
 	{
 	
 	RestAssured.baseURI = "https://data.calgary.ca";
@@ -82,6 +92,15 @@ public class GetConditionaldataTest
 	
 	
 	
+	@Test
+	@DataProvider(name="Datausingexcel")
+	public Object[][] testdata()
+	{
+		return null;
+		
+		
+		
+	}
 	
 	
 
