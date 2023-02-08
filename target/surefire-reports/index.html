@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 3 failed,   4 passed</span>
+                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content failed suite-Surefire_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="APIAutoMation.DatadrivenTest" class="method navigator-link" hash-for-method="DatadrivenExcelTest">DatadrivenExcelTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="APIAutoMation.FailingTests" class="method navigator-link" hash-for-method="getalldata">getalldata</a> <!-- method navigator-link -->
@@ -125,6 +120,11 @@
                       <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
                     </span>
                     <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="APIAutoMation.DatadrivenTest" class="method navigator-link" hash-for-method="DatadrivenExcelTest">DatadrivenExcelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="APIAutoMation.GetAllDataTest" class="method navigator-link" hash-for-method="getalldata">getalldata</a> <!-- method navigator-link -->
@@ -157,27 +157,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
-          <div class="suite-Surefire_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">APIAutoMation.DatadrivenTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="DatadrivenExcelTest">
-                  </a> <!-- DatadrivenExcelTest -->
-                  <span class="method-name">DatadrivenExcelTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [200] but found [400]
-	at Utility.ExcelUtils.datadriventests(ExcelUtils.java:94)
-	at APIAutoMation.DatadrivenTest.DatadrivenExcelTest(DatadrivenTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 39 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-failed -->
           <div class="suite-Surefire_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
@@ -216,7 +195,7 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at APIAutoMation.FailingTests.getalldata(FailingTests.java:42)
+	at APIAutoMation.FailingTests.getalldata(FailingTests.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 42 stack frames
 </div> <!-- stack-trace -->
@@ -229,10 +208,10 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
                   <a name="getconditionaldata">
                   </a> <!-- getconditionaldata -->
                   <span class="method-name">getconditionaldata</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;[Electricity]&gt; but was:&lt;[Electricity&gt;
-	at APIAutoMation.FailingTests.getconditionaldata(FailingTests.java:88)
+                  <div class="stack-trace">java.lang.AssertionError: expected [[Electricity] but found [[Electricity]]
+	at APIAutoMation.FailingTests.getconditionaldata(FailingTests.java:77)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 34 stack frames
+... Removed 38 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Wrong Comparative Parameters)                  </em>
@@ -265,14 +244,14 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">APIAutoMation.RecordCountTest</span>
+              <span class="class-name">APIAutoMation.DatadrivenTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="totalrecords">
-                  </a> <!-- totalrecords -->
-                  <span class="method-name">totalrecords</span>
+                  <a name="DatadrivenExcelTest">
+                  </a> <!-- DatadrivenExcelTest -->
+                  <span class="method-name">DatadrivenExcelTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -288,6 +267,21 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
                   <a name="getconditionaldata">
                   </a> <!-- getconditionaldata -->
                   <span class="method-name">getconditionaldata</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">APIAutoMation.RecordCountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="totalrecords">
+                  </a> <!-- totalrecords -->
+                  <span class="method-name">totalrecords</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -349,38 +343,38 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getalldata')
-data.setCell(0, 2, 'APIAutoMation.FailingTests')
-data.setCell(0, 3, 2045);
+data.setCell(0, 1, 'DatadrivenExcelTest')
+data.setCell(0, 2, 'APIAutoMation.DatadrivenTest')
+data.setCell(0, 3, 478221);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'DatadrivenExcelTest')
-data.setCell(1, 2, 'APIAutoMation.DatadrivenTest')
-data.setCell(1, 3, 1074);
+data.setCell(1, 1, 'getalldata')
+data.setCell(1, 2, 'APIAutoMation.FailingTests')
+data.setCell(1, 3, 2135);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'getconditionaldata')
 data.setCell(2, 2, 'APIAutoMation.FailingTests')
-data.setCell(2, 3, 859);
+data.setCell(2, 3, 830);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'totalrecords')
 data.setCell(3, 2, 'APIAutoMation.RecordCountTest')
-data.setCell(3, 3, 659);
+data.setCell(3, 3, 641);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'getconditionaldata')
-data.setCell(4, 2, 'APIAutoMation.GetConditionaldataTest')
-data.setCell(4, 3, 518);
+data.setCell(4, 1, 'headerstest')
+data.setCell(4, 2, 'APIAutoMation.GetAllDataTest')
+data.setCell(4, 3, 515);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'headerstest')
+data.setCell(5, 1, 'getalldata')
 data.setCell(5, 2, 'APIAutoMation.GetAllDataTest')
-data.setCell(5, 3, 497);
+data.setCell(5, 3, 500);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'getalldata')
-data.setCell(6, 2, 'APIAutoMation.GetAllDataTest')
-data.setCell(6, 3, 480);
+data.setCell(6, 1, 'getconditionaldata')
+data.setCell(6, 2, 'APIAutoMation.GetConditionaldataTest')
+data.setCell(6, 3, 482);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -417,41 +411,39 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">getconditionaldata</span>
-                <span class="method-start">2079 ms</span>
+                <span class="method-start">2169 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">APIAutoMation.GetAllDataTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getalldata</span>
-                <span class="method-start">2941 ms</span>
+                <span class="method-start">3002 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">headerstest</span>
-                <span class="method-start">3425 ms</span>
+                <span class="method-start">3504 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">APIAutoMation.GetConditionaldataTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getconditionaldata</span>
-                <span class="method-start">3925 ms</span>
+                <span class="method-start">4020 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">APIAutoMation.RecordCountTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">totalrecords</span>
-                <span class="method-start">4444 ms</span>
+                <span class="method-start">4503 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">APIAutoMation.DatadrivenTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">DatadrivenExcelTest</span>
-                <span class="method-start">5104 ms</span>
+                <span class="method-start">5145 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

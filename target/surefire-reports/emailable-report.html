@@ -9,16 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">6,197</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">483,389</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">APIAutoMation.DatadrivenTest</td><td><a href="#m0">DatadrivenExcelTest</a></td><td rowspan="1">1675812557242</td><td rowspan="1">1074</td></tr><tr class="failedodd"><td rowspan="2">APIAutoMation.FailingTests</td><td><a href="#m1">getalldata</a></td><td rowspan="1">1675812552138</td><td rowspan="1">2045</td></tr><tr class="failedodd"><td><a href="#m2">getconditionaldata</a></td><td rowspan="1">1675812554217</td><td rowspan="1">859</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">APIAutoMation.GetAllDataTest</td><td><a href="#m3">getalldata</a></td><td rowspan="1">1675812555079</td><td rowspan="1">480</td></tr><tr class="passedeven"><td><a href="#m4">headerstest</a></td><td rowspan="1">1675812555563</td><td rowspan="1">497</td></tr><tr class="passedodd"><td rowspan="1">APIAutoMation.GetConditionaldataTest</td><td><a href="#m5">getconditionaldata</a></td><td rowspan="1">1675812556063</td><td rowspan="1">518</td></tr><tr class="passedeven"><td rowspan="1">APIAutoMation.RecordCountTest</td><td><a href="#m6">totalrecords</a></td><td rowspan="1">1675812556582</td><td rowspan="1">659</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">APIAutoMation.FailingTests</td><td><a href="#m0">getalldata</a></td><td rowspan="1">1675820184061</td><td rowspan="1">2135</td></tr><tr class="failedeven"><td><a href="#m1">getconditionaldata</a></td><td rowspan="1">1675820186230</td><td rowspan="1">830</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">APIAutoMation.DatadrivenTest</td><td><a href="#m2">DatadrivenExcelTest</a></td><td rowspan="1">1675820189206</td><td rowspan="1">478221</td></tr><tr class="passedodd"><td rowspan="2">APIAutoMation.GetAllDataTest</td><td><a href="#m3">getalldata</a></td><td rowspan="1">1675820187063</td><td rowspan="1">500</td></tr><tr class="passedodd"><td><a href="#m4">headerstest</a></td><td rowspan="1">1675820187565</td><td rowspan="1">515</td></tr><tr class="passedeven"><td rowspan="1">APIAutoMation.GetConditionaldataTest</td><td><a href="#m5">getconditionaldata</a></td><td rowspan="1">1675820188081</td><td rowspan="1">482</td></tr><tr class="passedodd"><td rowspan="1">APIAutoMation.RecordCountTest</td><td><a href="#m6">totalrecords</a></td><td rowspan="1">1675820188564</td><td rowspan="1">641</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">APIAutoMation.DatadrivenTest#DatadrivenExcelTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [400]
-	at Utility.ExcelUtils.datadriventests(ExcelUtils.java:94)
-	at APIAutoMation.DatadrivenTest.DatadrivenExcelTest(DatadrivenTest.java:23)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 39 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">APIAutoMation.FailingTests#getalldata</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
+<h2>Surefire test</h2><h3 id="m0">APIAutoMation.FailingTests#getalldata</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;404&gt;.
 
 	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:86)
@@ -45,13 +40,14 @@ Expected status code &lt;200&gt; but was &lt;404&gt;.
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
 	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:143)
 	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
-	at APIAutoMation.FailingTests.getalldata(FailingTests.java:42)
+	at APIAutoMation.FailingTests.getalldata(FailingTests.java:31)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 ... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">APIAutoMation.FailingTests#getconditionaldata</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;[Electricity]&gt; but was:&lt;[Electricity&gt;
-	at APIAutoMation.FailingTests.getconditionaldata(FailingTests.java:88)
+<h3 id="m1">APIAutoMation.FailingTests#getconditionaldata</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [[Electricity] but found [[Electricity]]
+	at APIAutoMation.FailingTests.getconditionaldata(FailingTests.java:77)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">APIAutoMation.DatadrivenTest#DatadrivenExcelTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">APIAutoMation.GetAllDataTest#getalldata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m4">APIAutoMation.GetAllDataTest#headerstest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">APIAutoMation.GetConditionaldataTest#getconditionaldata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
