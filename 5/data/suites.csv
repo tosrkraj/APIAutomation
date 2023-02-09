@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Feb 09 01:43:48 GMT 2023","Thu Feb 09 01:49:11 GMT 2023","323173","Surefire suite","Surefire test","APIAutoMation.DatadrivenTest","APIAutoMation.DatadrivenTest","DatadrivenExcelTest","DatadrivenExcelTest",""
+"passed","Thu Feb 09 01:49:12 GMT 2023","Thu Feb 09 01:49:12 GMT 2023","288","Surefire suite","Surefire test","APIAutoMation.GetAllDataTest","APIAutoMation.GetAllDataTest","headerstest","headerstest",""
+"passed","Thu Feb 09 01:49:13 GMT 2023","Thu Feb 09 01:49:13 GMT 2023","294","Surefire suite","Surefire test","APIAutoMation.GetConditionaldataTest","APIAutoMation.GetConditionaldataTest","getconditionaldata","getconditionaldata",""
+"passed","Thu Feb 09 01:49:12 GMT 2023","Thu Feb 09 01:49:12 GMT 2023","275","Surefire suite","Surefire test","APIAutoMation.FailingTests","APIAutoMation.FailingTests","getalldata","Wrong URL",""
+"passed","Thu Feb 09 01:49:11 GMT 2023","Thu Feb 09 01:49:12 GMT 2023","339","Surefire suite","Surefire test","APIAutoMation.GetAllDataTest","APIAutoMation.GetAllDataTest","getalldata","getalldata",""
+"passed","Thu Feb 09 01:49:12 GMT 2023","Thu Feb 09 01:49:13 GMT 2023","327","Surefire suite","Surefire test","APIAutoMation.FailingTests","APIAutoMation.FailingTests","getconditionaldata","Wrong Comparative Parameters",""
+"passed","Thu Feb 09 01:43:45 GMT 2023","Thu Feb 09 01:43:48 GMT 2023","3031","Surefire suite","Surefire test","APIAutoMation.RecordCountTest","APIAutoMation.RecordCountTest","totalrecords","totalrecords",""
