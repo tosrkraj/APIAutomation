@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-08T18:25:01 MST" name="Surefire suite" finished-at="2023-02-08T18:33:16 MST" duration-ms="494160">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T18:25:01 MST" name="Surefire test" finished-at="2023-02-08T18:33:16 MST" duration-ms="494160">
+      <class name="APIAutoMation.FailingTests">
+        <test-method signature="getalldata()[pri:0, instance:APIAutoMation.FailingTests@28d18df5]" started-at="2023-02-08T18:25:01 MST" name="getalldata" description="Wrong URL" finished-at="2023-02-08T18:25:03 MST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getalldata -->
+        <test-method signature="getconditionaldata()[pri:0, instance:APIAutoMation.FailingTests@28d18df5]" started-at="2023-02-08T18:25:03 MST" name="getconditionaldata" description="Wrong Comparative Parameters" finished-at="2023-02-08T18:25:04 MST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getconditionaldata -->
+      </class> <!-- APIAutoMation.FailingTests -->
+      <class name="APIAutoMation.RecordCountTest">
+        <test-method signature="totalrecords()[pri:0, instance:APIAutoMation.RecordCountTest@5e403b4a]" started-at="2023-02-08T18:25:05 MST" name="totalrecords" finished-at="2023-02-08T18:25:06 MST" duration-ms="612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- totalrecords -->
+      </class> <!-- APIAutoMation.RecordCountTest -->
+      <class name="APIAutoMation.DatadrivenTest">
+        <test-method signature="DatadrivenExcelTest()[pri:0, instance:APIAutoMation.DatadrivenTest@5117dd67]" started-at="2023-02-08T18:25:06 MST" name="DatadrivenExcelTest" finished-at="2023-02-08T18:33:16 MST" duration-ms="489997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DatadrivenExcelTest -->
+      </class> <!-- APIAutoMation.DatadrivenTest -->
+      <class name="APIAutoMation.GetAllDataTest">
+        <test-method signature="getalldata()[pri:0, instance:APIAutoMation.GetAllDataTest@27d5a580]" started-at="2023-02-08T18:25:04 MST" name="getalldata" finished-at="2023-02-08T18:25:04 MST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getalldata -->
+        <test-method signature="headerstest()[pri:0, instance:APIAutoMation.GetAllDataTest@27d5a580]" started-at="2023-02-08T18:25:04 MST" name="headerstest" finished-at="2023-02-08T18:25:05 MST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerstest -->
+      </class> <!-- APIAutoMation.GetAllDataTest -->
+      <class name="APIAutoMation.GetConditionaldataTest">
+        <test-method signature="getconditionaldata()[pri:0, instance:APIAutoMation.GetConditionaldataTest@198d6542]" started-at="2023-02-08T18:25:05 MST" name="getconditionaldata" finished-at="2023-02-08T18:25:05 MST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getconditionaldata -->
+      </class> <!-- APIAutoMation.GetConditionaldataTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
