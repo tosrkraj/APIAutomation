@@ -9,8 +9,8 @@
 
 name: allure-maven
 
-on: [ push ]
-
+on: [ push,fork,workflow_dispatch ]
+      
 jobs:
   build:
     runs-on: ubuntu-latest
