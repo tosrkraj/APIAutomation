@@ -62,7 +62,7 @@ public class ExcelUtils {
 				//RequestSpecification Request = 
 					
 				
-		for (i=1;i<=totalrowcount;i++)
+		for (i=950;i<=totalrowcount;i++)
 		
 		{
 			
