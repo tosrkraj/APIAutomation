@@ -24,7 +24,7 @@ public class FailingTests {
 		
 		
 			.when()
-			.get("https://data.calgary.ca/resource/crbp-innf.json")  // Wrong URI
+			.get("https://data.calgary.ca/resources/crbp-innf.json")  // Wrong URI
 								
 			
 			.then()
@@ -68,7 +68,7 @@ public class FailingTests {
 			
 			
 			
-			Assert.assertEquals(statuscode,200);
+			Assert.assertEquals(statuscode,201);
 			Assert.assertEquals(unit,"[kWh]");
 			Assert.assertEquals(consumption,"[0]");
 			Assert.assertEquals(site_id,"[0020007253236]");
